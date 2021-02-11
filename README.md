@@ -4,11 +4,11 @@
 
 # JAMIRA WORKFLOW
 JAMIRA is a Bioinformatics Workflow for Integrative Exploration of Genomic Features of bacterias including:
-- Virulence factors;
-- Resistome profile;
-- Plasmid prediction;
-- Prophage prediction;
-- Genomic Islands prediction;
+- Virulence factors (Abricate);
+- Resistome profile (RGI);
+- Plasmid prediction (Abricate);
+- Prophage prediction (Phispy);
+- Genomic Islands prediction (IslandPath);
 
 
 [![Snakemake](https://img.shields.io/badge/Snakemake-≥5.5.4-1abc9c?style=flat-square)](https://snakemake.bitbucket.io)
@@ -22,7 +22,8 @@ JAMIRA is a Bioinformatics Workflow for Integrative Exploration of Genomic Featu
 
 ## Getting Started
 To run JAMIRA you need to install Conda.
-JAMIRA Workflow is intended to be executed in a Conda environment to ensure data reproducibillity and modularization among different genomic tools used in this pipeline.
+JAMIRA Workflow is intended to be executed in a Conda environment to ensure data reproducibillity and modularization among different genomic tools used in this pipeline. 
+This tutorial uses the Miniconda version (https://docs.conda.io/en/latest/miniconda.html). Download according to your operating system.
 
 ## Configuration
 After complete Conda installation you need to add the bioconda channel
